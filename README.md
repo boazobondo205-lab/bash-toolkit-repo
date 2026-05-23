@@ -22,22 +22,12 @@ A single-run shell script that prints a full system snapshot to the terminal —
 
 ---
 
-## Color Coding
-
-The script uses color to make critical info scannable at a glance:
-
-- 🟢 **Green** — healthy (disk usage below 70%)
-- 🟡 **Yellow** — warning (disk usage 70–89%)
-- 🔴 **Red** — critical (disk usage 90%+)
-
----
-
 ## Usage
 
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/sysinfo.git
+git clone https://github.com/boazobondo205-lab/sysinfo.git
 cd sysinfo
 ```
 
