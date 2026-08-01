@@ -6,6 +6,7 @@ A single-run shell script that checks a target host for open or closed ports - n
 
 ## What it checks 
 
+
 | Section | Details |
 |---|---|
 | Target| Hostname or IP passed as an argument|
@@ -16,20 +17,26 @@ A single-run shell script that checks a target host for open or closed ports - n
 
 ## Usage
 
+
 ### Clone the repo
 
+
 '''bash
+
 git clone https://github.com/boazobondo205-lab/bash-toolkit-repo.git
 cd network
 
 
 ### Make the script executable
 
+
 '''bash
+
 chmod +x portcheck.sh
 
 
 ### Run it
+
 
 '''bash
 ./portcheck.sh <host>
