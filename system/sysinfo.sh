@@ -41,5 +41,5 @@ echo "Shell: $SHELL"
 echo "TERM: $TERM"
 echo "EDITOR: ${EDITOR:-not set}"
 
-echo "========================================"
-echo "Simple snapshot complete."
+echo ""
+echo "-Snapshot Complete."
