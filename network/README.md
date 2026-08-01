@@ -21,7 +21,7 @@ A single-run shell script that checks a target host for open or closed ports - n
 ### Clone the repo
 
 
-'''bash
+''' bash
 
 git clone https://github.com/boazobondo205-lab/bash-toolkit-repo.git
 cd network
@@ -30,7 +30,7 @@ cd network
 ### Make the script executable
 
 
-'''bash
+''' bash
 
 chmod +x portcheck.sh
 
@@ -38,5 +38,6 @@ chmod +x portcheck.sh
 ### Run it
 
 
-'''bash
+''' bash
+
 ./portcheck.sh <host>
