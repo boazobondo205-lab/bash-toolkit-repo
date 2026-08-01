@@ -3,7 +3,7 @@
 
 A single-run shell script that checks a target host for open or closed ports - no more typing 'nc -zv', 'nmap' or 'telnet' one by one.
 
-
+---
 ## What it checks 
 
 
@@ -14,30 +14,31 @@ A single-run shell script that checks a target host for open or closed ports - n
 | Port status | Open or closed per port |
 | Summary | Count of open ports found |
 
-
+---
 ## Usage
 
 
 ### Clone the repo
 
 
-''' bash
+```bash
 
 git clone https://github.com/boazobondo205-lab/bash-toolkit-repo.git
 cd network
-
+```
 
 ### Make the script executable
 
 
-''' bash
+```bash
 
 chmod +x portcheck.sh
-
+```
 
 ### Run it
 
 
-''' bash
+```bash
 
 ./portcheck.sh <host>
+```
