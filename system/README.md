@@ -1,10 +1,13 @@
-# sysinfo.sh
+# System scripts
+
+
+## 1. sysinfo.sh
 
 A single-run shell script that prints a full system snapshot to the terminal — no more typing `whoami`, `df -h`, `ip a` one by one.
 
 ---
 
-## What It Shows
+### What It Shows
 
 | Section | Details |
 |---|---|
@@ -22,22 +25,22 @@ A single-run shell script that prints a full system snapshot to the terminal —
 
 ---
 
-## Usage
+### Usage
 
-### 1. Clone the repo
+#### 1. Clone the repo
 
 ```bash
 git clone https://github.com/boazobondo205-lab/bash-toolkit-repo.git
 cd system
 ```
 
-### 2. Make the script executable
+#### 2. Make the script executable
 
 ```bash
 chmod +x sysinfo.sh
 ```
 
-### 3. Run it
+#### 3. Run it
 
 ```bash
 ./sysinfo.sh
@@ -45,7 +48,7 @@ chmod +x sysinfo.sh
 
 ---
 
-## Optional: Run on every terminal open
+### Optional: Run on every terminal open
 
 Add this to your `~/.bashrc` or `~/.zshrc`:
 
@@ -61,7 +64,7 @@ alias sysinfo='~/path/to/sysinfo.sh'
 
 ---
 
-## Requirements
+### Requirements
 
 - Bash 4+
 - Standard Linux tools: `ip`, `ss`, `lscpu`, `lsblk`, `ps`, `free`, `df`, `last`, `who`
