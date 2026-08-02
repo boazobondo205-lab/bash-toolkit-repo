@@ -1,10 +1,13 @@
-# portcheck.sh
+# Network scripts
+
+
+## 1. portcheck.sh
 
 
 A single-run shell script that checks a target host for open or closed ports - no more typing 'nc -zv', 'nmap' or 'telnet' one by one.
 
 ---
-## What it checks 
+### What it checks 
 
 
 | Section | Details |
@@ -15,10 +18,10 @@ A single-run shell script that checks a target host for open or closed ports - n
 | Summary | Count of open ports found |
 
 ---
-## Usage
+### Usage
 
 
-### Clone the repo
+#### Clone the repo
 
 
 ```bash
@@ -27,7 +30,7 @@ git clone https://github.com/boazobondo205-lab/bash-toolkit-repo.git
 cd network
 ```
 
-### Make the script executable
+#### Make the script executable
 
 
 ```bash
@@ -35,7 +38,7 @@ cd network
 chmod +x portcheck.sh
 ```
 
-### Run it
+#### Run it
 
 
 ```bash
@@ -44,7 +47,7 @@ chmod +x portcheck.sh
 ```
 
 
-### Optional: Custom Port List
+#### Optional: Custom Port List
 
 Override the default port list using an environment variable:
 
@@ -55,7 +58,7 @@ scan="22 8080 9000" ./portcheck.sh <host>
 ```
 
 
-### Requirements
+#### Requirements
 
 - Bash 4+
   
