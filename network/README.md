@@ -42,3 +42,26 @@ chmod +x portcheck.sh
 
 ./portcheck.sh <host>
 ```
+
+
+### Optional: Custom Port List
+
+Override the default port list using an environment variable:
+
+
+```bash
+
+scan="22 8080 9000" ./portcheck.sh <host>
+```
+
+
+### Requirements
+
+- Bash 4+
+  
+- nc (netcat)
+  
+- Works on Debian/Ubuntu, Arch/Garuda, Kali, and most Linux distros
+
+
+### Author
