@@ -65,3 +65,5 @@ scan="22 8080 9000" ./portcheck.sh <host>
 
 
 ### Author
+
+**Boaz** — (https://github.com/boazobondo205-lab)
