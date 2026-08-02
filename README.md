@@ -18,11 +18,11 @@ A growing collection of bashscripts for system administration, network recon and
 ## Requirements 
 
 
--bash
+- bash
 
--'nc' (netcat) - used by network scripts
+- 'nc' (netcat) - used by network scripts
 
-- gcc
+- gcc/g++
 
 
 ## License
