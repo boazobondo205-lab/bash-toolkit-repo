@@ -7,21 +7,24 @@ if ! grep -q "SCRIPT_DIR" ~/.bashrc; then
 fi
 
 file=$1
-output=""
+base="${file%.*}"
+
 if [[ $file == *.c ]]; then
-  gcc "$file" -o output
+  echo "DEBUG: file=[$file] base=[$base]"
+  gcc "$file" -o "$base"
 
   if [ $? -eq 0 ]; then
-    ./output
+    ./"$base"
   else
     echo "Compilation failed"
   fi
 
 elif [[ $file == *.cpp ]]; then
-  g++ "file" -o output
+  echo "DEBUG: file=[$file] base=[$base]"
+  g++ "$file" -o "$base"
 
   if [ $? -eq 0 ]; then
-    ./output
+    ./"$base"
   else
     echo "Compilation failed"
   fi
