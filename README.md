@@ -11,6 +11,8 @@ A growing collection of bashscripts for system administration, network recon and
 
 -[network/](network/README.md) - network scanning and diagnostics
 
+-[dev/](dev/README.md) - dev tools
+
 -[security/] - coming soon
 
 ## Requirements 
@@ -19,6 +21,8 @@ A growing collection of bashscripts for system administration, network recon and
 -bash
 
 -'nc' (netcat) - used by network scripts
+
+- gcc
 
 
 ## License
