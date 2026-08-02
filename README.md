@@ -1,7 +1,7 @@
 # Bash Toolkit 
 
 
-A growing collection of bashscripts for system administration, network recon and security tasks
+A growing collection of bash scripts for system administration, network recon,dev and security tasks
 
 
 ## Categories
