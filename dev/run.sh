@@ -1,9 +1,12 @@
 #!/bin/bash
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-if ! grep -q "SCRIPT_DIR" ~/.bashrc; then
+if ! grep -q "$SCRIPT_DIR" ~/.bashrc; then
   echo "export PATH=\"\$PATH:$SCRIPT_DIR\"" >> ~/.bashrc
-  echo "Added run.sh to PATH. Run: source ~/.bashrc (or restart your terminal)"
+fi
+
+if ! grep -q "$SCRIPT_DIR" ~/.zshrc; then
+  echo "export PATH=\"\$PATH:$SCRIPT_DIR\"" >> ~/.zshrc
 fi
 
 file=$1
